@@ -1,0 +1,10 @@
+#!/bin/sh
+
+npm run lint
+
+# 确保脚本的退出状态是 0（成功）或 1（失败）
+# 如果 lint 命令返回非零状态，中止提交
+if [ $? -ne 0 ]; then
+  echo "Linting failed. Please fix the errors and try again."
+  exit 1
+fi
