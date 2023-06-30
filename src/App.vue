@@ -31,8 +31,8 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 // import { useCounterStore } from '@/stores/counter'
-import { ref } from 'vue'
-import { storeToRefs } from 'pinia'
+// import { ref } from 'vue'
+// import { storeToRefs } from 'pinia'
 
 // const store = useCounterStore()
 // const { name, age } = storeToRefs(store)
