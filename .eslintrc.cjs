@@ -43,7 +43,7 @@ module.exports = {
     'import/extensions': 'off', // 确保在导入路径中统一使用文件扩展名
     'eol-last': 'off', // 要求或禁止文件末尾存在空行
     'no-shadow': 'off', // 禁止变量声明与外层作用域的变量同名
-    'no-unused-vars': 'warn', // 禁止出现未使用过的变量
+    'no-unused-vars': 'error', // 禁止出现未使用过的变量
     'import/no-cycle': 'off', // 禁止一个模块导入一个有依赖路径的模块回到自己身上
     'arrow-parens': 'off', // 要求箭头函数的参数使用圆括号
     semi: ['error', 'never'], // 要求或禁止使用分号代替 ASI
