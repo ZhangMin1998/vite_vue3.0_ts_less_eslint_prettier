@@ -54,7 +54,8 @@
   },
   "lint-staged": {
     "*.{vue,ts,tsx}": [
-      "npm run lint"
+      "prettier --write",
+      "eslint"
     ]
   },
   "husky": {
